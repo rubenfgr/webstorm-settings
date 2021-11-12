@@ -1,0 +1,23 @@
+<templateSet group="Custom">
+  <template name="ngrx-app-reducers" value="import { ActionReducerMap } from '@ngrx/store';&#10;import * as  from './.reducer';&#10;&#10;&#10;export interface AppState {&#10;   todos: &#10;}&#10;&#10;&#10;&#10;export const appReducers: ActionReducerMap&lt;AppState&gt; = {&#10;   todos: ,&#10;}" description="Crea el AppReducer principal" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ngrx-reducer" value="import { createReducer, on } from '@ngrx/store';&#10;import { increment } from './counter.actions';&#10;&#10;export interface State {&#10;    key: String; &#10;}&#10;&#10;export const initialState: State = {&#10;   key: 'hola',&#10;}&#10;&#10;const _counterReducer = createReducer(initialState,&#10;&#10;    on(increment, state =&gt; ({ ...state, key: 'hola'})),&#10;&#10;);&#10;&#10;export function counterReducer(state, action) {&#10;    return _counterReducer(state, action);&#10;}" description="Crea el reducer básico" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ngrx-actions" value="import { createAction } from '@ngrx/store';&#10;&#10;export const increment = createAction('[Counter Component] increment');" description="Crea las acciones de NgRx" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="clog" value="console.log($1$);" description="Log output to console" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
