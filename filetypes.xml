@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="heroes" type="AUTO_DETECTED" />
       <mapping pattern=".env.example" type="EditorConfig" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern=".env.e" type="PLAIN_TEXT" />
       <mapping ext="template-pro" type="YAML" />
     </extensionMap>
