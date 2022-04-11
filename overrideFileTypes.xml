@@ -1,5 +1,6 @@
 <application>
   <component name="OverrideFileTypeManager">
     <file url="file://$USER_HOME$/DevOps/jobs/seyte/projects/seyte/code/base-back-nest/docker/.env.example" />
+    <file url="file://$USER_HOME$/DevOps/jobs/seyte/projects/seyte/code/base-back-nest/docker/.env.example" value="AUTO_DETECTED" />
   </component>
 </application>
