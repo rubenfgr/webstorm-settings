@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="rfl" value="// =================================================&#10;//   $MSG$&#10;// =================================================" description="" toReformat="false" toShortenFQNames="true">
+  <template name="rfl" value="// =================================================&#10;//   $MSG$&#10;// =================================================" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
