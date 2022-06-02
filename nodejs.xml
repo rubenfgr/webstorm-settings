@@ -1,0 +1,27 @@
+<application>
+  <component name="NodeJsLocalInterpreterManager">
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v16.13.0/bin/node">
+      <version-cache version="16.13.0" last-modified="1635249248000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v14.18.1/bin/node">
+      <version-cache version="14.18.1" last-modified="1634011631000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v14.18.0/bin/node">
+      <version-cache last-modified="0" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v12.22.8/bin/node">
+      <version-cache version="12.22.8" last-modified="1639692915000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v12.12.0/bin/node">
+      <version-cache version="12.12.0" last-modified="1570822210000" />
+    </local-interpreter>
+  </component>
+  <component name="NodeJsRemoteInterpreters">
+    <interpreter node-remote-interpreter="docker-compose://[/home/rubenfgr/DevOps/jobs/seyte/projects/seyte/code/base-back-nest/docker-dev/docker-compose.yml]:node/node" INTERPRETER_PATH="node" HELPERS_PATH=".webstorm_nodejs_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" VERSION="" OUTDATED_ID="" DOCKER_ACCOUNT_NAME="Docker" DOCKER_COMPOSE_SERVICE_NAME="node" DOCKER_REMOTE_PROJECT_PATH="/opt/project">
+      <dockerComposeConfigurationPaths>
+        <item value="$USER_HOME$/DevOps/jobs/seyte/projects/seyte/code/base-back-nest/docker-dev/docker-compose.yml" />
+      </dockerComposeConfigurationPaths>
+      <envs />
+    </interpreter>
+  </component>
+</application>

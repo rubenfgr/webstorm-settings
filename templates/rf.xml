@@ -1,0 +1,14 @@
+<templateSet group="rf">
+  <template name="rfl" value="/***********************************************************************************************************************&#10; *  $1$&#10; **********************************************************************************************************************/" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="rfs" value="/***************************************&#10; *  $1$&#10; ***************************************/" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
