@@ -6,8 +6,8 @@
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern=".env.e" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
-      <mapping ext="mdx" type="TypeScript" />
       <mapping ext="template-pro" type="YAML" />
+      <removed_mapping ext="mdx" approved="true" type="TypeScript" />
     </extensionMap>
   </component>
 </application>
